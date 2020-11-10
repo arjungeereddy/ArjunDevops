@@ -9,4 +9,4 @@ RUN unzip sentra.zip
 RUN cp -rvf markups-sentra/* .
 RUN rm -rf _MACOSX markups-sentra sentra.zip
 CMD ["/usr/sbin/httpd",".D", "FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 
